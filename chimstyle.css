@@ -1,0 +1,51 @@
+body
+{
+    background-color: rgb(245, 221, 87);
+}
+#container
+{
+ background-color: white; width: 1000px; margin:0 auto;
+}
+header{
+    background-image:url('rethai2.jpg'); background-repeat: no-repeat; text-align: center; border: 15px goldenrod solid; height:300px;
+    background-color: goldenrod;
+}
+nav{
+    font-size:25px;
+}
+h1{
+    color: white; font-size: 100px;
+}
+aside{
+    width: 250px; float:right; margin: 0 0 5px 5px; background-color: whitesmoke; padding: 5px; min-height: auto;
+}
+article {
+    width: 700px; float: left; 
+}
+article div{
+    display: none;
+}
+article div:target{
+    display:block;
+}
+#Home{
+    display:block;
+}
+:target ~ #Home{
+    display: none;
+}
+h4{
+    font-size: 25px; font-family: 'Lucida Grande';
+}
+ul{
+    font-family: 'Lucida Grande'; font-size: 20px;
+}
+footer{
+    height:50px; background-color: goldenrod; color: white; text-align: end;font-size:25px; clear:both;
+}
+input,textarea{
+    display: block;
+}
+form{
+    margin-top: 10px;
+}
