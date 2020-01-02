@@ -382,4 +382,6 @@ C:\Users\mail2\Documents\Gaja\chimilgit>dir
                5 File(s)         11,850 bytes
                2 Dir(s)  80,209,723,392 bytes free
 
+Let us delete the doll branch in remote
+$ git push cg --delete doll
 bye.
